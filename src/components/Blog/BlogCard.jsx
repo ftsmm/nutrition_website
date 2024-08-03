@@ -33,7 +33,7 @@ export default function BlogCard({title, description, image, article1,article2,a
   };
 
   return (
-    <Card sx={{ width:"38rem"}}>
+    <Card sx={{ width:"100%"}}>
       <CardHeader
         avatar={
           <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">

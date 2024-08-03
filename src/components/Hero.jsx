@@ -39,7 +39,7 @@ export default function Hero() {
               >
                 <FontAwesomeIcon
                   icon={faWhatsapp}
-                  style={{ marginRight: "8px" ,marginBottom:"10px"}}
+                  style={{ marginRight: "8px" ,marginBottom:"10px" , marginTop:"10px"}}
                 />
                 WhatsApp
               </button>
@@ -50,7 +50,7 @@ export default function Hero() {
               className="img-fluid"
               src="https://images.pexels.com/photos/8844902/pexels-photo-8844902.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt="Description of image"
-              style={{ maxHeight: "20rem", objectFit: "cover", width: "100%" }}
+              style={{ maxHeight: "20rem", objectFit: "cover", width: "100%" ,marginTop:"10px"}}
             />
           </div>
         </div>

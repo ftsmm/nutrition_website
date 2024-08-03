@@ -3,7 +3,7 @@ import React from 'react'
 export default function CommentCard({ title, description, image, degree }) {
   return (
 
-        <div className="card border-success text-bg-success" style={{ width: "28rem" }}>
+        <div className="card border-success text-bg-success" style={{ width: "100%" }}>
           <div className="card-body" style={{ marginLeft: "20px" }}>
             <div
               style={{

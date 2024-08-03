@@ -47,7 +47,7 @@ export default function Blog() {
   return (
     <section id="blog" >
       <h1 style={{ textAlign: "center" }}>Makaleler</h1>
-      <div style={{ width: "38rem", margin: "auto" }}>
+      <div style={{ width: "100%", margin: "auto" }}>
         <Slide>
           {blogs.map((blogs, index) => (
             <div className="each-slide-effect" key={index}>

@@ -32,7 +32,7 @@ export default function Comment() {
   return (
     <section id="comment">
       <h1 style={{ textAlign: "center" }}>Yorumlar</h1>
-      <div style={{ width: "28rem", margin: "auto" }}>
+      <div style={{ width: "100%", margin: "auto" }}>
         <Slide>
           {services.map((service, index) => (
             <div className="each-slide-effect" key={index}>
