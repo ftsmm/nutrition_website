@@ -1,0 +1,44 @@
+.service-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.service-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.service-title {
+    font-size: 1.5rem;
+    margin: 15px 0;
+}
+
+.service-description {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.service-price {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #4CAF50;
+}
+
+.service-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.service-button:hover {
+    background-color: #45a049;
+}
